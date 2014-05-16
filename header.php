@@ -27,7 +27,6 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <link rel="shortcut icon" href="<?php echo bloginfo('template_directory'); ?>/favicon.png">
-	<link rel="apple-touch-icon" href="<?php echo bloginfo('template_directory'); ?>/apple-touch-icon-precomposed.png"/>
 <!-- The little things -->
 
 <!-- Stylesheets -->
