@@ -24,17 +24,15 @@
 <meta http-equiv="ClearType" content="true" />
 
 <!-- The little things -->
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!-- Don't forget to add this! -->
     <link rel="shortcut icon" href="<?php echo bloginfo('template_directory'); ?>/favicon.ico">
 <!-- The little things -->
 
 <!-- Stylesheets -->
-	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+	<link rel="stylesheet" href="<?php echo bloginfo('template_directory'); ?>/style.css">
 <!-- Stylesheets -->
-
-<!-- Load scripts quick smart -->
 
 <!-- Load scripts quick smart -->
 

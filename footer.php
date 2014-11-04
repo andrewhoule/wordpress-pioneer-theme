@@ -7,8 +7,9 @@
 <?php wp_footer(); ?>
 
 <!-- Scripts -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="<?php echo bloginfo('template_directory'); ?>/assets/scripts/general.js"></script>
+<script src="<?php echo bloginfo('template_directory'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo bloginfo('template_directory'); ?>/bower_components/respond/dest/respond.min.js"></script>
+<script src="<?php echo bloginfo('template_directory'); ?>/js/pohl.js"></script>
 
 <!-- Scripts -->
 

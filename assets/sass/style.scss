@@ -1,8 +1,8 @@
 /*!
 Theme Name: Your Theme Name
-Description: A SASS file for your theme
-Author: Andrew Houle
-Author URI: http://andyhoule.com;
+Description: Customized theme for the Your website
+Author: Your Name
+Author URI: Your URL
 Version: 1.0
 */
 
@@ -10,9 +10,10 @@ Version: 1.0
    Imports
    ========================================================================== */ 
 
-@import "compass";
-@import "varsandmixins";
-@import "normalize";
+@import 'compass';
+@import 'bower_components/normalize-scss/normalize';
+@import 'settings';
+@import 'bower_components/jeet/scss/jeet/index';
 
 
 /* ==========================================================================
@@ -158,7 +159,7 @@ table {
 			vertical-align: top;
 		}
 	}
-	tr:nth-child(even) { background: $offsetcolor_verylight; }
+	tr:nth-child(even) { background: $offsetcolor_verysubtle; }
 	tr:nth-child(odd) { background: #fff; }
 	tr:last-child { border-bottom: none; }
 	ul { 
@@ -249,14 +250,14 @@ p {
 	margin: 0 0 20px 0;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: $textcolor_meddark;
+	color: $textcolor_medstrong;
 	@include secondaryfont();
 	font-weight: 400;
 	margin: 0 0 15px 0;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: $textcolor_light;
+    color: $textcolor_subtle;
     line-height: 0;
 }
 h1 { @include fontsize(3.2,3.9); }
@@ -269,24 +270,24 @@ a {
 	color: $primarycolor;
 	outline: none;
 	text-decoration: none;
-}
+} 
 a:hover {
 	color: $secondarycolor;
 	text-decoration: underline;
 }
 strong {
-	color: $textcolor_meddark;
+	color: $textcolor_medstrong;
 	font-weight: 700;
 }
 small {
-	color: $textcolor_light;
+	color: $textcolor_subtle;
 	@include secondaryfont();
 	font-style: italic;
 }
 code {
 	font-family: Consolas, "Liberation Mono", Courier, monospace;
 	font-weight: bold;
-	color: $textcolor_light;
+	color: $textcolor_subtle;
 }
 .center-text, .text-center, .ct {
 	text-align: center;
@@ -317,7 +318,7 @@ blockquote {
 	}
 }
 figcaption, cite {
-	color: $textcolor_light;
+	color: $textcolor_subtle;
 	@include fontsize(1.4,2.0);
 	@include primaryfont();
 	font-style: normal;

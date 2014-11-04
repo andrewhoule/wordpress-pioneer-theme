@@ -1,0 +1,22 @@
+{
+  "name": "yoursitename",
+  "version": "0.0.1",
+  "authors": [
+    "Author Info Here"
+  ],
+  "description": "Your Site Name Frontend Dependencies",
+  "license": "MIT",
+  "homepage": "http://www.yourwebsite.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~1.*",
+    "respond": "~1.4.2",
+    "normalize-scss": "~3.0.1",
+    "jeet": "~6.1.2"
+  }
+}
